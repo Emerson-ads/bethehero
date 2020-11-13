@@ -1,21 +1,10 @@
-import React, { useState} from 'react'
-
+import React from 'react'
+import './globo.css'
+import Logon from './pages/Logon'
 
 function App () {
-    
-    const [counter, setCounter] = useState(0)
-
-  const increment = () => {
-        setCounter(counter + 2)
-  }
-    
     return (
-        <div>
-            <h1>Hello World</h1>
-            <h2>{counter}</h2>
-            <button onClick={increment}>+</button>
-
-        </div>
+        <Logon />
     )
 }
 
